@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    height:200px;
+   align-items: center;
+    padding: var(--separacion / 2 0);
+    background-color: var(--grisOscuro);
+    padding: 50px;
+    .contenedor-footer{
+        padding-top: var(--separacion /2);
+    }
+
+    .copyright{
+        color:var(--blanco);
+        text-align: center;
+        margin: 0;
+    }
+    
+}

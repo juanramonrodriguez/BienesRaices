@@ -1,0 +1,29 @@
+.inicio{
+    background-image: url(../../img/header.jpg);
+    min-height: 70rem;
+    background-position: center center;
+    background-size: cover;
+    .contenido-header{
+        min-height: 70rem;
+    }
+}
+
+.header{
+    background-color: var(--grisOscuro);
+    padding: 1rem 0 3rem 0;
+  
+}
+.contenido-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    h1{
+        text-align: left;
+        line-height: 2;
+        color:  var(--blanco);
+        font-size: var(700);
+        font-weight: var(--bold);
+        max-width:55rem ;
+    }
+}

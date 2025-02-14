@@ -1,0 +1,36 @@
+.boton-amarillo{
+    background-color: var(--amarillo);
+    color: var(--blanco);
+    font-weight: var(--bold);
+    text-decoration: none;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-top: var(--separacion /2);
+    display: block;
+
+}
+.boton-amarillo:hover{
+    transition: all 0.5s ease-in-out;
+   background-color: black;
+}
+.boton-verde{
+    background-color: var(--verde);
+    font-weight: var(--bold);
+    text-decoration: none;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-top: var(--separacion /2);
+    display: block;
+    border: none;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.ver-todas{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0;
+}
+.boton-amarillo-inline{
+    display: inline-flex;
+}

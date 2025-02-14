@@ -1,0 +1,21 @@
+
+.iconos-nosotros{
+    display: flex;
+    display: grid(3, 2rem);
+    gap: 5rem;
+}
+@media (max-width:1000px){
+.iconos-nosotros{
+    flex-direction: column;
+}
+}
+
+.icono{
+    text-align:start;
+    img{
+        height: 10rem;
+    }
+    h3{
+        text-transform: uppercase;
+    }
+}
